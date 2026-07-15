@@ -41,7 +41,7 @@ the one before it.
 
 If you'd rather just browse the raw files, they're in `docs/en/` and 
 `docs/ru/`. If you want the nicer reading experience, use the 
-[hosted site](https://DenisDrobyshev.github.io/scrollstop) — same 
+[hosted site](https://DenisDrobyshev.github.io/ScrollStop) — same 
 content, easier to navigate, with a language switcher in the header.
 
 ## Contributing
