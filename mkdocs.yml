@@ -31,11 +31,11 @@ plugins:
       docs_structure: folder
       default_language: en
       languages:
-        en:
+        - locale: en
           name: English
           build: true
           default: true
-        ru:
+        - locale: ru
           name: Русский
           build: true
 
@@ -59,3 +59,26 @@ markdown_extensions:
   - pymdownx.superfences
   - toc:
       permalink: true
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue # или black
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  logo: assets/logo.svg # если есть
+
+extra_css:
+  - stylesheets/extra.css # если используете кастомные стили
