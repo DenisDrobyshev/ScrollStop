@@ -4,8 +4,8 @@ An open methodology for breaking short-form video addiction — Reels,
 Shorts, TikTok. Built from personal experience and backed by actual 
 research, not guesswork.
 
-🌐 **[Read it here → scrollstop docs](https://DenisDrobyshev.github.io/scrollstop)**  
-🇬🇧 English (default) · 🇷🇺 [Русская версия](https://DenisDrobyshev.github.io/scrollstop/ru/)
+🌐 **[Read it here → scrollstop docs](https://DenisDrobyshev.github.io/ScrollStop)** English (default) 
+🇷🇺 [Русская версия](https://DenisDrobyshev.github.io/ScrollStop/ru/)
 
 ---
 
