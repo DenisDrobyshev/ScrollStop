@@ -4,6 +4,8 @@ site_url: https://DenisDrobyshev.github.io/scrollstop
 repo_url: https://github.com/DenisDrobyshev/scrollstop
 repo_name: DenisDrobyshev/scrollstop
 
+docs_dir: docs
+
 theme:
   name: material
   palette:
@@ -39,7 +41,7 @@ plugins:
 
 nav:
   - Home: index.md
-  - Introduction: 1_intro.md
+  - Before You Start: 1_intro.md
   - Symptoms: 2_symptoms.md
   - How It Works: 3_how_it_works.md
   - "Week 1 — Awareness": 4_awareness.md
