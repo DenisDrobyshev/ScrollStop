@@ -1,0 +1,59 @@
+site_name: ScrollStop
+site_description: An open methodology for breaking short-form video addiction
+site_url: https://DenisDrobyshev.github.io/scrollstop
+repo_url: https://github.com/DenisDrobyshev/scrollstop
+repo_name: DenisDrobyshev/scrollstop
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      default_language: en
+      languages:
+        en:
+          name: English
+          build: true
+          default: true
+        ru:
+          name: Русский
+          build: true
+
+nav:
+  - Home: index.md
+  - Introduction: 1_intro.md
+  - Symptoms: 2_symptoms.md
+  - How It Works: 3_how_it_works.md
+  - "Week 1 — Awareness": 4_awareness.md
+  - "Week 2 — Friction": 5_friction.md
+  - "Week 3 — Replacement": 6_replacement.md
+  - Relapses: 7_relapses.md
+  - Rebuilding Focus: 8_rebuilding_focus.md
+  - Evenings & Sleep: 9_evenings_and_sleep.md
+  - Maintenance: 10_maintenance.md
+  - Sources: 11_sources.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
