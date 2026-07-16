@@ -1,3 +1,7 @@
+---
+description: "Week 1 of the program: spend seven days just watching your own scrolling patterns, without restricting anything yet."
+---
+
 # Week 1. Just Watch What Happens
 
 The temptation at this stage is to delete everything immediately and 

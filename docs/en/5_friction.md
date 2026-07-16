@@ -1,3 +1,7 @@
+---
+description: "Week 2: rebuild your environment so opening the feed stops being the path of least resistance."
+---
+
 # Week 2. Building Barriers
 
 There's a difference between "willpower" and "environment." Willpower 

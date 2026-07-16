@@ -1,3 +1,7 @@
+---
+description: "Every study and figure this methodology relies on, linked to the original source so you can verify it yourself."
+---
+
 # Sources
 
 Here are all the studies and data this methodology draws on. We 
@@ -43,16 +47,6 @@ addiction. In the current study, we aimed to investigate the effect of short-for
 An empirical study of TikTok users explaining the pleasure-withdrawal 
 seesaw mechanism. This study conducts empirical research using data collected from 382 Chinese TikTok users. Based on the stimulus–organism–response framework, the research model was constructed from the opponent process theory (OPT) perspective through features and emotional elements. The results show that short-form video features influence addiction by activating users' perceived enjoyment and feeling of withdrawal. Based on the positive and negative reinforcement of the OPT, users must repeatedly interact with short-form videos to maintain positive emotions or reduce negative emotions. Eventually, this practice will lead to addiction. Additionally, users' procrastination moderates the relationship between feeling of withdrawal and addiction.
 🔗 https://www.emerald.com/insight/content/doi/10.1108/itp-04-2020-0186/full/html · DOI: 10.1108/itp-04-2020-0186
-
-## Additional (general context, not quoted directly)
-
-- Satani et al. (2025) — EEG study on dopamine spikes and recovery 
-  after 30 days of abstinence (referenced in a review paper, 
-  arXiv 2603.26707)
-- ScienceDirect (2025) — study on "TikTok Brain" in Chinese 
-  adolescents and attentional control
-- PMC (2025) — review of mechanisms behind "problematic short video 
-  use," including the role of the ventral tegmental area
 
 ---
 

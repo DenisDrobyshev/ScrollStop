@@ -1,3 +1,7 @@
+---
+description: "Week 3: fill the gap the feed leaves behind — because the habit was never really about the app."
+---
+
 # Week 3. Filling the Gap
 
 This is where the most important — and most underrated — part of the 

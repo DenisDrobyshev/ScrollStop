@@ -1,3 +1,7 @@
+---
+description: "Evenings and the minutes before sleep are the most stubborn trigger of all. How to keep the feed out of your bedtime."
+---
+
 # Evenings and Sleep — A Separate Risk Zone
 
 Evening time, and especially bed before sleep, is probably the most 

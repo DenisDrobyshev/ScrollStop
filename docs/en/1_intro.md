@@ -1,3 +1,7 @@
+---
+description: "Short-form video hooks you by design, not because your willpower is weak. Read this before you change anything."
+---
+
 # Before You Start
 
 If you opened this file, you probably already suspect something's off. 

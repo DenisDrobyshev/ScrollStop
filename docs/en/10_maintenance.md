@@ -1,3 +1,7 @@
+---
+description: "How to hold onto the result for the long run instead of gritting your teeth for a month and sliding back."
+---
+
 # After the Program — How to Keep Living
 
 By this point, several weeks have probably gone by. Some things went 

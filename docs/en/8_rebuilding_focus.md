@@ -1,3 +1,7 @@
+---
+description: "Concentration is a trainable skill. How to rebuild your ability to read, work and actually finish things."
+---
+
 # Rebuilding Your Ability to Concentrate
 
 It's worth talking separately about what happens to concentration in 

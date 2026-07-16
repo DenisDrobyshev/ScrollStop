@@ -1,3 +1,7 @@
+---
+description: "A relapse is part of the process, not a failure. What to do the moment you slip, and how to avoid the deeper spiral."
+---
+
 # On Relapses — Because They Will Happen
 
 This is probably the single most important piece in the whole 

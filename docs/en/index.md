@@ -1,3 +1,7 @@
+---
+description: "A free, open, research-backed method for quitting the short-form video habit — Reels, Shorts, TikTok. Built from experience, not guesswork."
+---
+
 # ScrollStop
 
 I built this because I was the problem I'm writing about.

@@ -1,46 +1,88 @@
 site_name: ScrollStop
-site_description: An open methodology for breaking short-form video addiction
-site_url: https://DenisDrobyshev.github.io/scrollstop
-repo_url: https://github.com/DenisDrobyshev/scrollstop
-repo_name: DenisDrobyshev/scrollstop
+site_description: A free, open, research-backed method for breaking short-form video addiction — Reels, Shorts, TikTok.
+site_author: Denis Drobyshev
+site_url: https://denisdrobyshev.github.io/ScrollStop/
+repo_url: https://github.com/DenisDrobyshev/ScrollStop
+repo_name: DenisDrobyshev/ScrollStop
+copyright: MIT-licensed. Reuse it, fork it, translate it.
 
 docs_dir: docs
 
 theme:
   name: material
+  custom_dir: overrides
+  language: en
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
   palette:
-    - scheme: default
-      primary: indigo
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: light blue
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: light blue
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
-    - navigation.tabs
+    - navigation.tracking
     - navigation.top
+    - navigation.footer
     - content.code.copy
     - search.suggest
+    - search.highlight
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  homepage: https://denisdrobyshev.github.io/ScrollStop/
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/DenisDrobyshev/ScrollStop
+      name: ScrollStop on GitHub
 
 plugins:
   - search
   - i18n:
       docs_structure: folder
-      default_language: en
+      reconfigure_material: true
+      reconfigure_search: true
       languages:
         - locale: en
+          default: true
           name: English
           build: true
-          default: true
         - locale: ru
           name: Русский
           build: true
+          nav_translations:
+            Home: Главная
+            The Plan: План
+            Before You Start: Прежде чем начать
+            Symptoms: Симптомы
+            How It Works: Почему это затягивает
+            "Week 1 — Awareness": "Неделя 1 — Наблюдение"
+            "Week 2 — Friction": "Неделя 2 — Трение"
+            "Week 3 — Replacement": "Неделя 3 — Замена"
+            Relapses: Срывы
+            Rebuilding Focus: Возврат внимания
+            "Evenings & Sleep": "Вечер и сон"
+            Maintenance: После программы
+            Sources: Источники
 
 nav:
   - Home: index.md
+  - The Plan: protocol.md
   - Before You Start: 1_intro.md
   - Symptoms: 2_symptoms.md
   - How It Works: 3_how_it_works.md
@@ -49,36 +91,18 @@ nav:
   - "Week 3 — Replacement": 6_replacement.md
   - Relapses: 7_relapses.md
   - Rebuilding Focus: 8_rebuilding_focus.md
-  - Evenings & Sleep: 9_evenings_and_sleep.md
+  - "Evenings & Sleep": 9_evenings_and_sleep.md
   - Maintenance: 10_maintenance.md
   - Sources: 11_sources.md
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true
-
-theme:
-  name: material
-  palette:
-    - scheme: default
-      primary: blue # или black
-      accent: light blue
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: blue grey
-      accent: light blue
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-  font:
-    text: Inter
-    code: JetBrains Mono
-  logo: assets/logo.svg # если есть
-
-extra_css:
-  - stylesheets/extra.css # если используете кастомные стили

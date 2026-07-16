@@ -1,3 +1,7 @@
+---
+description: "An honest checklist to see how deep into short-form video you actually are — in your behaviour, your attention and your mood."
+---
+
 # How to Tell If This Is About You
 
 Before reading the list below, let's agree on something: this isn't 

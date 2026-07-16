@@ -1,3 +1,7 @@
+---
+description: "Dopamine, variable reward and the pleasure-withdrawal seesaw: the real mechanics of why the feed keeps pulling you back."
+---
+
 # Why It Pulls You Back, Even When It's Not Interesting
 
 To fight something, it helps to understand the mechanics. This isn't 

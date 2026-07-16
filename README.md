@@ -1,63 +1,92 @@
 # ScrollStop
 
-An open methodology for breaking short-form video addiction — Reels, 
-Shorts, TikTok. Built from personal experience and backed by actual 
-research, not guesswork.
+A free, open method for getting off short-form video — Reels, Shorts,
+TikTok. It comes out of my own experience with the problem and leans on
+published research instead of the usual "just delete the app" advice.
 
-🌐 **[Read it here → scrollstop docs](https://DenisDrobyshev.github.io/ScrollStop)** English (default) 
-🇷🇺 [Русская версия](https://DenisDrobyshev.github.io/ScrollStop/ru/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](#license)
+[![Deploy](https://github.com/DenisDrobyshev/ScrollStop/actions/workflows/deploy.yml/badge.svg)](https://github.com/DenisDrobyshev/ScrollStop/actions/workflows/deploy.yml)
+[![Built with Material for MkDocs](https://img.shields.io/badge/built%20with-Material%20for%20MkDocs-526cfe.svg)](https://squidfunk.github.io/mkdocs-material/)
 
----
+**Read it online:** https://denisdrobyshev.github.io/ScrollStop/
+&nbsp;·&nbsp; English (default) &nbsp;·&nbsp; [Русская версия](https://denisdrobyshev.github.io/ScrollStop/ru/)
 
-## Why This Exists
+## Why this exists
 
-I noticed I couldn't finish a three-minute video without wanting to 
-skip ahead. I'd open an app "for a second" and lose forty minutes 
-without remembering what I watched. So I dug into the research on 
-what short-form video actually does to attention, and put together 
-a concrete, step-by-step way out — not just "delete the app and hope 
-for the best."
+For a while I couldn't sit through a three-minute video without wanting
+to skip ahead. I'd open an app to check one thing and look up forty
+minutes later with no memory of what I'd watched, and reading a book
+had started to feel like hard physical work. Instead of guessing at
+willpower fixes, I went and read what the research actually says about
+what short-form video does to attention, and turned it into a plan I
+could follow. This is that plan, cleaned up so someone else can use it.
 
-This isn't a course, isn't a paid product, isn't trying to sell you 
-anything. It's a set of documents, free and open, that you can read, 
-follow, fork, or improve.
+It's not a product and there's nothing to buy. It's a set of documents
+you can read, follow, fork, or send fixes to.
 
-## What's Inside
+## What's inside
 
-- An explanation of what's actually happening in your brain when you 
-  scroll, backed by real studies (dopamine, variable reward, 
-  opponent process theory)
-- A symptom checklist to see how deep into it you actually are
-- A four-part practical program: observation → friction → 
-  replacement → maintenance
-- An honest section on relapses, because everyone has them
-- Full source citations for every claim, so you can verify it yourself
+- What's actually going on in your brain while you scroll, explained
+  through the real research — dopamine as anticipation, variable reward,
+  opponent-process theory.
+- A plain checklist to gauge how far into it you are.
+- A concrete three-week program: first observe your patterns, then add
+  friction, then replace the habit with something that meets the same
+  need.
+- A separate, honest chapter on relapses, because they happen to
+  everyone and that's where most people quit.
+- Sources for every claim, linked to the original studies so you can
+  check them yourself.
 
-## How to Use This
+## The method in brief
 
-Read it in order, starting from the intro. It's meant to be gone 
-through step by step, not skimmed in one sitting. Each part builds on 
-the one before it.
+If you only want the actions, the whole thing lives on one page:
+[The Plan](https://denisdrobyshev.github.io/ScrollStop/protocol/).
 
-If you'd rather just browse the raw files, they're in `docs/en/` and 
-`docs/ru/`. If you want the nicer reading experience, use the 
-[hosted site](https://DenisDrobyshev.github.io/ScrollStop) — same 
-content, easier to navigate, with a language switcher in the header.
+| Stage    | What you do                                                        |
+| -------- | ------------------------------------------------------------------ |
+| Week 1   | Count every time you open the app. Change nothing. Find your triggers. |
+| Week 2   | Kill notifications, hide the app, add a few seconds of friction.   |
+| Week 3   | Decide your replacements in advance and reach for them first.      |
+| Ongoing  | Treat slips as data, not failure. Keep the phone out of the bedroom at night. |
+
+## How to read it
+
+It's written to be read in order — each chapter builds on the last, so
+skimming it out of sequence loses most of the point. If you want to
+start doing before you finish reading, go straight to The Plan and use
+the chapter links from there.
+
+The raw Markdown lives in `docs/en/` and `docs/ru/` if you'd rather read
+it in your editor. The [hosted site](https://denisdrobyshev.github.io/ScrollStop/)
+is the same content with search and a language switcher.
+
+## Running it locally
+
+The site is Markdown rendered with MkDocs. To preview changes before
+opening a PR:
+
+```bash
+pip install -r requirements.txt
+mkdocs serve
+```
+
+Then open `http://127.0.0.1:8000`. Anything you edit under `docs/`
+reloads live.
 
 ## Contributing
 
-Found something that doesn't work for you, or have a better version 
-of a step? Open a PR. If you want to add a translation into another 
-language, open an issue first so we can figure out the folder 
-structure together.
+If a step didn't work for you or you have a better version of it, open a
+PR. To add a translation into another language, open an issue first so
+we can sort out the folder layout together.
 
 ## Disclaimer
 
-This isn't a substitute for therapy. If short-form video use is 
-seriously affecting your work, relationships, or daily functioning, 
-please talk to an actual professional alongside anything here.
+This is not a replacement for therapy. If short-form video is seriously
+getting in the way of your work, your relationships, or your daily life,
+talk to a professional as well as reading any of this.
 
 ## License
 
-MIT — do whatever you want with it, just don't claim you wrote the 
-original research it's based on.
+MIT. Use it however you like — just don't pass off the underlying
+research as your own.
