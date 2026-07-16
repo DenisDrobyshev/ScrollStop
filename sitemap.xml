@@ -85,6 +85,13 @@
         <xhtml:link rel="alternate" hreflang="ru" href="https://denisdrobyshev.github.io/ScrollStop/ru/9_evenings_and_sleep/"/>
     </url>
     <url>
+        <loc>https://denisdrobyshev.github.io/ScrollStop/faq/</loc>
+        <lastmod>2026-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://denisdrobyshev.github.io/ScrollStop/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://denisdrobyshev.github.io/ScrollStop/ru/faq/"/>
+    </url>
+    <url>
         <loc>https://denisdrobyshev.github.io/ScrollStop/protocol/</loc>
         <lastmod>2026-07-16</lastmod>
         <changefreq>daily</changefreq>
@@ -174,6 +181,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="https://denisdrobyshev.github.io/ScrollStop/ru/9_evenings_and_sleep/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://denisdrobyshev.github.io/ScrollStop/9_evenings_and_sleep/"/>
+    </url>
+    <url>
+        <loc>https://denisdrobyshev.github.io/ScrollStop/ru/faq/</loc>
+        <lastmod>2026-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://denisdrobyshev.github.io/ScrollStop/ru/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://denisdrobyshev.github.io/ScrollStop/faq/"/>
     </url>
     <url>
         <loc>https://denisdrobyshev.github.io/ScrollStop/ru/protocol/</loc>
