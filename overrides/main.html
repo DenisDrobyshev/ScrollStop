@@ -23,4 +23,11 @@
   <meta name="twitter:title" content="{{ page_title }}">
   <meta name="twitter:description" content="{{ page_desc }}">
   <meta name="twitter:image" content="{{ og_image }}">
+
+  {# Privacy-friendly, cookieless analytics. Off until extra.goatcounter
+     is set in mkdocs.yml, so nothing loads while it's empty. #}
+  {% if config.extra.goatcounter %}
+  <script data-goatcounter="https://{{ config.extra.goatcounter }}.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+  {% endif %}
 {% endblock %}

@@ -48,6 +48,27 @@ An empirical study of TikTok users explaining the pleasure-withdrawal
 seesaw mechanism. This study conducts empirical research using data collected from 382 Chinese TikTok users. Based on the stimulus–organism–response framework, the research model was constructed from the opponent process theory (OPT) perspective through features and emotional elements. The results show that short-form video features influence addiction by activating users' perceived enjoyment and feeling of withdrawal. Based on the positive and negative reinforcement of the OPT, users must repeatedly interact with short-form videos to maintain positive emotions or reduce negative emotions. Eventually, this practice will lead to addiction. Additionally, users' procrastination moderates the relationship between feeling of withdrawal and addiction.
 🔗 https://www.emerald.com/insight/content/doi/10.1108/itp-04-2020-0186/full/html · DOI: 10.1108/itp-04-2020-0186
 
+## Neural Mechanisms and Self-Control
+
+**David & Roberts — Social Science Computer Review, 2025**
+An investigation of the "TikTok brain" idea, looking at how short-form
+video use relates to self-control and phubbing. Heavier use went
+together with lower self-control, which in turn tracked with more
+short-video addiction.
+🔗 https://journals.sagepub.com/doi/10.1177/08944393241279422 · DOI: 10.1177/08944393241279422
+
+**Li, Liu, Hu, Liu — Addiction Biology, 2025**
+A review pulling together what's known about "problematic use of short
+video," including the reward-circuit and weakened inhibitory-control
+findings behind why it's so hard to stop.
+🔗 https://pmc.ncbi.nlm.nih.gov/articles/PMC12589815/ · DOI: 10.1111/adb.70082
+
+**Zhang & Li — Frontiers in Human Neuroscience, 2025**
+An fNIRS study measuring brain activity in college students during
+risky decisions, linking short-video addiction to altered prefrontal
+activity.
+🔗 https://pmc.ncbi.nlm.nih.gov/articles/PMC12015723/ · DOI: 10.3389/fnhum.2025.1542271
+
 ---
 
 *All figures and quotes are attributed to their original source. If 

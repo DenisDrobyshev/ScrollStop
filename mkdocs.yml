@@ -46,6 +46,10 @@ extra_css:
 
 extra:
   homepage: https://denisdrobyshev.github.io/ScrollStop/
+  # Cookieless, privacy-friendly stats. Register a free site at
+  # goatcounter.com, then put your code here (e.g. "scrollstop" for
+  # scrollstop.goatcounter.com). Leave empty to disable analytics.
+  goatcounter: ""
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/DenisDrobyshev/ScrollStop

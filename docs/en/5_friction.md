@@ -58,6 +58,45 @@ really the app — it's the task: try breaking it into a smaller piece,
 so the barrier to starting work is lower than the barrier to 
 scrolling.
 
+## The Exact Steps, by Phone
+
+If you want the precise taps, here they are. Menu names drift a little
+between phone models and OS versions, so read these as "look for
+something like this," not exact coordinates. Each step up the ladder
+puts a few more seconds between you and the feed.
+
+![Five escalating steps of friction: notifications off, the app moved into a folder, logged out so it needs a password, a daily time limit, and the phone out of the bedroom at night](../assets/friction-ladder.svg)
+
+**On iPhone (iOS)**
+
+1. Notifications off: Settings → Notifications → the app → turn off
+   Allow Notifications.
+2. Off the home screen: press and hold the icon → Remove App → Remove
+   from Home Screen. It stays installed in the App Library, just no
+   longer one thumb-tap away.
+3. Make getting in cost something: log out of your account, so opening
+   it needs a password.
+4. A daily limit: Settings → Screen Time → App Limits → add the app,
+   and set a cap a little under your current average — not zero.
+5. Out of the bedroom: turn on the Sleep focus and charge the phone in
+   another room. A cheap alarm clock takes over the wake-up job.
+
+**On Android**
+
+1. Notifications off: Settings → Notifications → the app → turn them
+   off. While you're in the app, turn off autoplay too.
+2. Off the home screen: press and hold the icon → Remove — it stays in
+   the app drawer, just off your main screen.
+3. Make getting in cost something: log out, or use Digital Wellbeing's
+   "Pause app" so relaunching takes a deliberate step.
+4. A daily limit: Settings → Digital Wellbeing & parental controls →
+   App timers → set a timer on the app.
+5. Out of the bedroom: turn on Bedtime mode and charge the phone
+   somewhere you can't reach from the bed.
+
+None of these block you outright. They just slow you down enough that
+the urge often passes before you're back in the feed.
+
 ## An Important Clarification
 
 The goal this week isn't zero minutes on the app. The goal is making 
