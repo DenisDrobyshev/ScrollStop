@@ -1,0 +1,55 @@
+/* ScrollStop — small readability tweaks on top of Material */
+
+:root {
+  --md-text-font: "Inter";
+  --md-code-font: "JetBrains Mono";
+}
+
+/* Keep prose at a comfortable reading measure on wide screens.
+   Long lines of body text are the enemy of a long read like this. */
+.md-typeset {
+  font-size: 0.82rem;
+  line-height: 1.72;
+}
+
+.md-content__inner {
+  max-width: 46rem;
+  margin-inline: auto;
+}
+
+/* A touch more air around headings so chapters breathe */
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.8em;
+}
+
+.md-typeset h2 {
+  margin-top: 2.2em;
+  font-weight: 650;
+  letter-spacing: -0.005em;
+}
+
+/* Numbered "start here" lists on the home page read like a table of
+   contents — give them a bit more spacing between items */
+.md-typeset ol li,
+.md-typeset ul li {
+  margin-bottom: 0.35em;
+}
+
+/* Make the source links on the Sources page stand out as links */
+.md-typeset a[href^="http"] {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+/* Quieter, roomier footer */
+.md-footer-meta {
+  font-size: 0.7rem;
+}
+
+/* Reading-friendly line length inside admonitions too */
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: 0.78rem;
+}
