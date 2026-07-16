@@ -10,10 +10,13 @@
   {% set page_title = page.title if page and page.title else config.site_name %}
   {% set page_desc = page.meta.description if page and page.meta and page.meta.description else config.site_description %}
   {% set og_image = config.site_url ~ "assets/og-cover.png" %}
+  {% set is_ru = page and page.canonical_url and "/ru/" in page.canonical_url %}
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ config.site_name }}">
   <meta property="og:title" content="{{ page_title }}">
   <meta property="og:description" content="{{ page_desc }}">
+  <meta property="og:locale" content="{{ 'ru_RU' if is_ru else 'en_US' }}">
+  <meta property="og:locale:alternate" content="{{ 'en_US' if is_ru else 'ru_RU' }}">
   {% if page and page.canonical_url %}<meta property="og:url" content="{{ page.canonical_url }}">{% endif %}
   <meta property="og:image" content="{{ og_image }}">
   <meta property="og:image:width" content="1200">

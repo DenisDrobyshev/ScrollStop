@@ -1,0 +1,20 @@
+{% extends "main.html" %}
+
+{% block content %}
+<div class="md-typeset" style="text-align:center; padding:2.5rem 1rem 3.5rem;">
+  <h1 style="font-size:3.5rem; line-height:1; margin:0 0 .3rem;">404</h1>
+  <p style="font-size:.95rem; margin:.2rem 0;">
+    This page isn't here. The address may be mistyped, or the page moved.
+  </p>
+  <p style="font-size:.95rem; color:var(--md-default-fg-color--light); margin:.2rem 0 1.4rem;">
+    Такой страницы нет — возможно, адрес набран с опечаткой или страница переехала.
+  </p>
+  <p>
+    <a href="{{ config.site_url }}">Home</a>
+    &nbsp;·&nbsp;
+    <a href="{{ config.site_url }}protocol/">The Plan</a>
+    &nbsp;·&nbsp;
+    <a href="{{ config.site_url }}ru/">Русская версия</a>
+  </p>
+</div>
+{% endblock %}

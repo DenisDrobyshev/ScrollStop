@@ -53,3 +53,39 @@
 .md-typeset details {
   font-size: 0.78rem;
 }
+
+/* A "print this page" link that only shows up on screens, not on paper */
+.print-link {
+  font-size: 0.75rem;
+}
+
+/* Make printed pages (e.g. The Plan stuck on a wall) clean: drop the
+   navigation, header, footer and the interactive tracker; give the text
+   the full width of the sheet. */
+@media print {
+  .md-header,
+  .md-sidebar,
+  .md-tabs,
+  .md-footer,
+  .md-content__button,
+  .print-link,
+  .ss-tracker {
+    display: none !important;
+  }
+
+  .md-content,
+  .md-content__inner,
+  .md-main__inner {
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .md-typeset {
+    font-size: 11pt;
+    color: #000;
+  }
+
+  .md-typeset a {
+    color: #000;
+  }
+}

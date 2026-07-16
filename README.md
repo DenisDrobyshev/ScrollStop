@@ -35,6 +35,8 @@ you can read, follow, fork, or send fixes to.
   need.
 - A separate, honest chapter on relapses, because they happen to
   everyone and that's where most people quit.
+- A small tracker built into the Week 1 page for counting your own
+  opens and triggers. It runs in your browser and sends nothing anywhere.
 - Sources for every claim, linked to the original studies so you can
   check them yourself.
 

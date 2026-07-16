@@ -10,6 +10,8 @@ full chapter — read those at least once, because the "why" is what
 carries you through the days when motivation is gone. But if you just
 want to start, everything you need is right here.
 
+<p class="print-link"><a href="#" onclick="window.print();return false;">Print this page</a></p>
+
 Two ground rules before the steps:
 
 - Pick a start date in the next two days. Not "Monday", not "after the

@@ -82,6 +82,7 @@ plugins:
             Rebuilding Focus: Возврат внимания
             "Evenings & Sleep": "Вечер и сон"
             Maintenance: После программы
+            FAQ: Частые вопросы
             Sources: Источники
 
 nav:
@@ -97,6 +98,7 @@ nav:
   - Rebuilding Focus: 8_rebuilding_focus.md
   - "Evenings & Sleep": 9_evenings_and_sleep.md
   - Maintenance: 10_maintenance.md
+  - FAQ: faq.md
   - Sources: 11_sources.md
 
 markdown_extensions:
